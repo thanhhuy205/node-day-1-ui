@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "./todolist.module.css";
 
-const API_BASE = import.meta.env.VITE_API_URL;
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:3000";
 
 export default function TodoList() {
   const [tasks, setTasks] = useState([]);
