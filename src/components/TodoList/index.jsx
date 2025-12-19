@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from "./TodoList.module.css";
+import styles from "./todolist.module.css";
 
 const API_BASE = import.meta.env.VITE_API_URL;
 
