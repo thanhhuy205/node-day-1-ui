@@ -29,6 +29,7 @@ jobs:
       - run: npm run build
         env:
           VITE_API_URL: https://node-day-1-be-1.onrender.com
+          VITE_API_URL_DAY_2: https://node-day-2-be.onrender.com
 
       - uses: actions/upload-pages-artifact@v3
         with:
